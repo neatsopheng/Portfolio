@@ -57,9 +57,11 @@ const Projects = () => {
       <div className="w-[70%]  mx-auto h-auto flex  items-center flex-col justify-evenly gap-5">
         {myProject.map((i) => (
           <Fragment key={i.title}>
+
             <div className="w-full md:w-[699px] lg:w-full p-10 bg-[#2f4d31] rounded-lg flex flex-col md:flex-row items-center justify-evenly gap-20 mg:gap-0">
-              
-              <div className="flex-1 w-80 h-52 md:pl-20">
+              <div className="flex-1 w-full h-auto md:w-80 md:h-52 md:pl-20">
+              <h3 className="pb-2 rounded text-center md:text-start font-semibold text-green-600">{i.title}</h3>
+
                 <img src={i.img} className="w-80 h-52 object-cover"/>
               </div>
               <div className=" flex-1 bg-[#3a5c3d] p-2 md:p-7 rounded-lg ">

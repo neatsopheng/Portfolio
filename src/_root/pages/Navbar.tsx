@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="sticky top-10 w-full backdrop-blur-md text-white bg-black py-3 px-5 md:p-5 border-b border-gray-500 z-10 md:flex md:items-center md:justify-between">
       <div className="flex items-center justify-between z-50">
           <span className="font-fraunces font-semibold text-xl lg:text-3xl border px-2 py-1 rounded-xl whitespace-nowrap">
-            <a href="./index.html"><span className="text-orange-500">N.</span>Sopheng</a>
+            <a href="/"><span className="text-orange-500">N.</span>Sopheng</a>
           </span>
           <span className="text-2xl cursor-pointer md:hidden">
             {

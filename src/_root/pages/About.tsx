@@ -13,7 +13,7 @@ const About = () => {
       </div>
         <ul className="leading-8 flex-1 list-disc px-5 ">
           <li>I am a college student majored in Computer Science at Royal University of Phnom Penh(RUPP)</li>
-          <li>Started since 2022 March and currently is a year 3 student </li>
+          <li>I started since 2022 March and I am currently a 4th years student</li>
           <li>My Location located in Phnom Penh, feel free to contact me any time</li>
           <li>I am passionate with trending Technologies, improving skill, and also a fast learning developer</li>
           <li>My short-term goal is to gain knowledge from a real world project i had never been working with , and my long-term goal is to be a quality developer at both frontend and backend</li>

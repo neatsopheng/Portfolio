@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-10 w-full backdrop-blur-md text-white bg-black py-3 px-5 md:p-5 border-b border-gray-500 z-10 md:flex md:items-center md:justify-between">
       <div className="flex items-center justify-between z-50">
-          <span className="font-fraunces font-semibold text-xl lg:text-3xl border px-2 py-1 rounded-xl whitespace-nowrap">
+          <span className="font-fraunces font-semibold text-xl lg:text-3xl border px-2 py-1 rounded-xl whitespace-nowrap border-t-orange-500 border-r-orange-500 border-b-orange-700 border-l-orange-700">
             <a href="/"><span className="text-orange-500">N.</span>Sopheng</a>
           </span>
           <span className="text-2xl cursor-pointer md:hidden">
@@ -24,20 +24,20 @@ const Navbar = () => {
 
       <ul
           className={`${isOpen ? "block" : "hidden"} absolute bg-[#121212] py-2 mt-2 md:bg-transparent -z-10  text-white w-full left-0 opacity-0  md:flex md:items-center md:z-auto md:static md:w-auto md:py-0 md:pl-0 md:opacity-100 transition-all ease-in duration-200 ${isOpen ? "top-[55px] opacity-100" : ""}`}>
-            <li className="cursor-pointer hover:bg-slate-800 py-3 pl-3 md:px-5 md:hover:bg-transparent">
-                <a href="#home" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> Home </a>
+            <li className="cursor-pointer hover:bg-slate-800 md:py-3 pl-3 md:px-5 md:hover:bg-transparent">
+                <a href="#home" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8 py-4"> <p className="py-3">Home</p> </a>
             </li>
-            <li className="cursor-pointer hover:bg-slate-800 py-3 pl-3 md:px-5 md:hover:bg-transparent">
-                <a href="#about" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8 whitespace-nowrap"> About me </a>
+            <li className="cursor-pointer hover:bg-slate-800 md:py-3 pl-3 md:px-5 md:hover:bg-transparent">
+                <a href="#about" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8 whitespace-nowrap"> <p className="py-3">About me</p> </a>
             </li>
-            <li className="cursor-pointer hover:bg-slate-800 py-3 pl-3 md:px-5 md:hover:bg-transparent">
-                <a href="#service" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> Services </a>
+            <li className="cursor-pointer hover:bg-slate-800 md:py-3 pl-3 md:px-5 md:hover:bg-transparent">
+                <a href="#service" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> <p className="py-3">Service</p> </a>
             </li>
-            <li className="cursor-pointer hover:bg-slate-800 py-3 pl-3 md:px-5 md:hover:bg-transparent">
-                <a href="#projects" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> Projects </a>
+            <li className="cursor-pointer hover:bg-slate-800 md:py-3 pl-3 md:px-5 md:hover:bg-transparent">
+                <a href="#projects" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> <p className="py-3">Projects</p> </a>
             </li>
-            <li className="cursor-pointer hover:bg-slate-800 py-3 pl-3 md:px-5 md:hover:bg-transparent">
-                <a href="#footer" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> Contact </a>
+            <li className="cursor-pointer hover:bg-slate-800 md:py-3 pl-3 md:px-5 md:hover:bg-transparent">
+                <a href="#footer" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> <p className="py-3">Contact</p> </a>
             </li>
         </ul>
 

@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
 
       <ul
-          className={`absolute bg-[#121212] py-2 mt-2 md:bg-transparent z-[-1]  text-white w-full left-0 opacity-0  md:flex md:items-center md:z-auto md:static md:w-auto md:py-0 md:pl-0 md:opacity-100 transition-all ease-in duration-200 ${isOpen ? "top-[55px] opacity-100" : ""}`}>
+          className={`${isOpen ? "block" : "hidden"} absolute bg-[#121212] py-2 mt-2 md:bg-transparent -z-10  text-white w-full left-0 opacity-0  md:flex md:items-center md:z-auto md:static md:w-auto md:py-0 md:pl-0 md:opacity-100 transition-all ease-in duration-200 ${isOpen ? "top-[55px] opacity-100" : ""}`}>
             <li className="cursor-pointer hover:bg-slate-800 py-3 pl-3 md:px-5 md:hover:bg-transparent">
                 <a href="#home" className="text-lg lg:text-xl font-ubuntu hover:underline decoration-white underline-offset-8"> Home </a>
             </li>

@@ -1,8 +1,8 @@
 const About = () => {
-  const ProgrammingLanguages = ['HTML', 'CSS', 'JavaScript', 'TypeScript',
-    'C/C++', 'Basic Java','Basic C#', 'Basic Sql', 'Basic SqlServer'
+  const ProgrammingLanguages = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Basic NodeJS',
+    'C/C++', 'Basic Java','Basic C#', 'Basic SQL & No SQL',
   ]
-  const Technologies = ['TailwindCSS','Bootstrap', 'ReactJs','Basic VueJS', 'GitHub', 'npm'];
+  const Technologies = ['TailwindCSS','Bootstrap', 'ReactJs','Basic MERN stack', 'Basic VueJS', 'GitHub', 'npm', 'Vitest'];
   const mostExperienced = ['ReactJS', 'TypeScript', 'JavaScript' , 'TailwindCSS', 'npm', 'GitHub'];
   return (
     <section id="about" className="about-section bg-[#121222] h-auto px-5 py-20 ">
@@ -22,16 +22,16 @@ const About = () => {
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Programming Language learned</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
           {ProgrammingLanguages.map((item) =>
-            <li className="border px-8 py-3 w-44 text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
+            <li className="border py-3 w-52 h-auto text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
           )}
         </ul>
         
       </div>
       <div className="">
-        <h3 className="text-xl my-5 md:my-10 font-bold italic ">Technologies and Framework</h3>
+        <h3 className="text-xl my-5 md:my-10 font-bold italic ">Frameworks and Libraries</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
         {Technologies.map((item) =>
-            <li className="border px-8 py-3 w-44 text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
+            <li className="border py-3 w-44 text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
           )}
         </ul>
       </div>

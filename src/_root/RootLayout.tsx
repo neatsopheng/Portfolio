@@ -4,6 +4,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Footer from './pages/Footer'
 import Service from './pages/Service'
+import '../animate.css'
 
 const RootLayout = () => {
   return (

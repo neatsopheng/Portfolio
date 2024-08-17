@@ -13,7 +13,7 @@ const Service = () => {
         <h3 className="text-center text-3xl font-semibold">Service</h3>
         <hr className="mx-10 my-5" />
       </div>
-      <div className="flex justify-evenly flex-wrap gap-10">
+      <div className="flex justify-evenly flex-wrap gap-10" data-aos="fade-up">
         {myService.map((i) => (
           <div className="border py-7 px-10 md:px-14 md:py-10 rounded-xl bg-yellow-600 hover:bg-yellow-700 text-black font-bold">
             <p>{i}</p>

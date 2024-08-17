@@ -1,3 +1,4 @@
+
 const About = () => {
   const ProgrammingLanguages = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Basic NodeJS',
     'C/C++', 'Basic Java','Basic C#', 'Basic SQL & No SQL',
@@ -11,14 +12,14 @@ const About = () => {
         <h3 className="text-center text-3xl font-semibold">About Me</h3>
         <hr className="mx-10 my-5"/>
       </div>
-        <ul className="leading-8 flex-1 list-disc px-5 ">
+        <ul className="leading-8 flex-1 list-disc px-5 " data-aos="fade-in">
           <li>I am a college student majored in Computer Science at Royal University of Phnom Penh(RUPP)</li>
           <li>I started since 2022 March and I am currently a 4th years student</li>
           <li>My Location located in Phnom Penh, feel free to contact me any time</li>
           <li>I am passionate with trending Technologies, improving skill, and also a fast learning developer</li>
           <li>My short-term goal is to gain knowledge from a real world project i had never been working with , and my long-term goal is to be a quality developer at both frontend and backend</li>
         </ul>
-      <div>
+      <div data-aos="fade-up">
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Programming Language learned</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
           {ProgrammingLanguages.map((item) =>
@@ -27,7 +28,7 @@ const About = () => {
         </ul>
         
       </div>
-      <div className="">
+      <div data-aos="fade-up">
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Frameworks and Libraries</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
         {Technologies.map((item) =>
@@ -35,7 +36,7 @@ const About = () => {
           )}
         </ul>
       </div>
-      <div className="">
+      <div data-aos="fade-up">
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Most Experienced with</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
         {mostExperienced.map((item) =>

@@ -19,7 +19,7 @@ const Home = () => {
 
       <div className="flex md:flex-row flex-col items-center justify-evenly gap-10 ">
         <div className="w-full md:w-50% border-2 border-orange-500 rounded-3xl bg-[#2d2d2d] text-white py-10 px-5">
-          <p className="text-md md:text-2xl font-titillium-web ">
+          <p className="text-md md:text-2xl font-titillium-web " data-aos="fade-in">
             I am passionate in Web Development field since i started my major in
             Computer Science. I am able to build front end with integrated
             function and able to work with API and more. I hope for having a

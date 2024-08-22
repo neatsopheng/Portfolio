@@ -23,7 +23,7 @@ const About = () => {
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Programming Language learned</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
           {ProgrammingLanguages.map((item) =>
-            <li className="border py-3 w-52 h-auto text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
+            <li key={item} className="border py-3 w-52 h-auto text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
           )}
         </ul>
         
@@ -32,7 +32,7 @@ const About = () => {
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Frameworks and Libraries</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
         {Technologies.map((item) =>
-            <li className="border py-3 w-44 text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
+            <li key={item} className="border py-3 w-44 text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
           )}
         </ul>
       </div>
@@ -40,7 +40,7 @@ const About = () => {
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Most Experienced with</h3>
         <ul className="flex gap-5 flex-wrap justify-center">
         {mostExperienced.map((item) =>
-            <li className="border px-8 py-3 w-44 text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
+            <li key={item} className="border px-8 py-3 w-44 text-center rounded hover:bg-gray-300 hover:text-slate-900 transition duration-200">{item}</li>
           )}
         </ul>
       </div>

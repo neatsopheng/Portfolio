@@ -15,7 +15,7 @@ const Service = () => {
       </div>
       <div className="flex justify-evenly flex-wrap gap-10" data-aos="fade-up">
         {myService.map((i) => (
-          <div className="border py-7 px-10 md:px-14 md:py-10 rounded-xl bg-yellow-600 hover:bg-yellow-700 text-black font-bold">
+          <div key={i} className="border py-7 px-10 md:px-14 md:py-10 rounded-xl bg-yellow-600 hover:bg-yellow-700 text-black font-bold">
             <p>{i}</p>
           </div>
         ))}

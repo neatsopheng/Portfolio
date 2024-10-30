@@ -12,7 +12,7 @@ const Home = () => {
             Hi, I'm <span className="text-orange-500">Sopheng</span>
           </h3>
           <p className="text-lg font-medium md:text-3xl lg:text-4xl animate-bounce">
-            I build <span className="italic text-orange-200">frontend</span> for websites
+            Web Developer
           </p>
         </div>
       </div>
@@ -20,10 +20,11 @@ const Home = () => {
       <div className="flex md:flex-row flex-col items-center justify-evenly gap-10 ">
         <div className="w-full md:w-50% border-2 border-orange-500 rounded-3xl bg-[#2d2d2d] text-white py-10 px-5">
           <p className="text-md md:text-2xl font-titillium-web " data-aos="fade-in">
-            I am passionate in Web Development field since i started my major in
-            Computer Science. I am able to build front end with integrated
-            function and able to work with API and more. I hope for having a
-            chance to work with you and provide you a good website.
+          I have been passionate about the field of Web Development since I began my studies 
+          in Computer Science. I am skilled in building front-end interfaces and integrating APIs, 
+          as well as creating basic back-end functionality to ensure websites and web applications 
+          operate smoothly. I hope to have the opportunity to work with you and contribute to 
+          creating an exceptional website.
           </p>
         </div>
         <div className="ml-10 w-[198px] md:w-[50%] h-auto">

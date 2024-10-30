@@ -1,9 +1,9 @@
 
 const About = () => {
-  const ProgrammingLanguages = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Basic NodeJS',
-    'C/C++', 'Basic Java','Basic C#', 'Basic SQL & No SQL',
+  const ProgrammingLanguages = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'NodeJS',
+    'C/C++', 'Java','Basic C#', 'SQL &  Basic NoSQL',
   ]
-  const Technologies = ['TailwindCSS','Bootstrap', 'ReactJs','Basic MERN stack', 'Basic VueJS', 'GitHub', 'npm', 'Vitest'];
+  const Technologies = ['TailwindCSS','Bootstrap', 'ReactJS', 'NextJS', 'Basic MERN stack', 'Basic VueJS', 'GitHub', 'npm', 'Vitest'];
   const mostExperienced = ['ReactJS', 'TypeScript', 'JavaScript' , 'TailwindCSS', 'npm', 'GitHub'];
   return (
     <section id="about" className="about-section bg-[#121222] h-auto px-5 py-20 ">
@@ -15,9 +15,9 @@ const About = () => {
         <ul className="leading-8 flex-1 list-disc px-5 " data-aos="fade-in">
           <li>I am a college student majored in Computer Science at Royal University of Phnom Penh(RUPP)</li>
           <li>I started since 2022 March and I am currently a 4th years student</li>
-          <li>My Location located in Phnom Penh, feel free to contact me any time</li>
-          <li>I am passionate with trending Technologies, improving skill, and also a fast learning developer</li>
-          <li>My short-term goal is to gain knowledge from a real world project i had never been working with , and my long-term goal is to be a quality developer at both frontend and backend</li>
+          <li>My Location located in Phnom Penh, feel free to contact me</li>
+          <li>I am passionate with trending Technologies, improving skill, and also a fast learner</li>
+          <li>My goal is to gain knowledge by learning from industry or company or my working position and learn about everything around me , and my long-term goal is to be a quality Software Developer</li>
         </ul>
       <div data-aos="fade-up">
         <h3 className="text-xl my-5 md:my-10 font-bold italic ">Programming Language learned</h3>

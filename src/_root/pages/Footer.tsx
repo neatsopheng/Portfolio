@@ -7,7 +7,7 @@ const Footer = () => {
     <>
         <section id="footer" className="flex flex-col md:flex-row gap-5 md:flex-1 md:gap-5">
             <div>
-                <h3 className="text-lg md:text-3xl font-bold font-ubuntu">Sopheng, Web Developer</h3>
+                <h3 className="text-lg md:text-3xl font-bold font-ubuntu">Sopheng, Developer</h3>
             </div>
             <div className="hidden md:inline">
                 <ul className="footer-navbar">
